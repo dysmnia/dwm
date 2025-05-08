@@ -1,0 +1,8 @@
+#!/bin/sh
+
+xrandr --output eDP1 --brightness 0.4 --gamma 1:1:0.75 &
+xrdb - merge ~/.Xresources &
+xsetroot -solid "#464064" &
+slstatus &
+dunst &
+sxhkd &
